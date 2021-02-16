@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/*トップ*/
+.Copy{
+	font-size: 2.0em;
+	}
+
+h1.MainCopy{
+	font-size: 1.5em;
+	}
+
+h2.title{
+	font-size: 1.5em;
+	}
+
+.ServiceMenu {
+    padding: 20px;
+	margin-bottom: 20px;
+	}
+
+.Price p{
+	text-align: left;
+	}
+
+h2.ContentCopy{
+	font-size: 1.75em;
+	}
+
+
+/*下層ページタイトル*/
+h1.PageMainTitle {
+	font-size: 1.6em;
+	margin: 40px 0px 50px;
+	}
+
+.PageTitle {
+	font-size: 1.6em;
+	}
+
+
+
+/*サービス*/
+
+
+
+/*製作実績*/
+.workpage h4{
+	font-size: 0.6em;
+	margin-bottom: 50px;
+	line-height: 1.4em;
+	margin: 5px auto 30px;
+	}
+
+
+/*プライス*/
+h2.PageSabTitle{
+	font-size: 1.6em;
+	}
+
+
+/*フッター*/
+footer p {
+    font-size: 0.8em;
+	}
