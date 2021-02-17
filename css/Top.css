@@ -1,0 +1,298 @@
+@charset "UTF-8";
+#boxA {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAF0lEQVQYV2NkYGD4z8DAwMgAI0AMDA4AI3EBBMY7CTgAAAAASUVORK5CYII=), url(../img/Home-main.jpg);
+  position: relative;
+  background-repeat: repeat;
+  background-blend-mode: overlay;
+  background-size: auto, cover;
+  overflow: hidden;
+  background-position: top 0px center;
+  height: 100vh;
+  text-align: center; }
+
+.inner1 {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  width: 90%; }
+
+.content {
+  transform: translate(-50%, -50%); }
+
+.Copy {
+  font-family: "UD Shin Go Bold";
+  color: #fff;
+  margin-bottom: 30px;
+  /*	text-shadow: 1px 1px 1px rgba(0,0,0,0.80);*/
+  font-size: 3em;
+  line-height: 1.3em; }
+
+.ml14 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em; }
+.ml14 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 100% 100%;
+  bottom: 0; }
+.ml14 .letter {
+  display: inline-block;
+  line-height: 1.3em; }
+
+h1.MainCopy {
+  font-family: "UD Shin Go DemiBold";
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  line-height: 1.3em;
+  font-feature-settings: "palt"; }
+
+.Home-Arrow {
+  transform: translate(-50%, -50%); }
+
+.inner2 {
+  left: 50%;
+  position: absolute;
+  bottom: 0%; }
+
+.item {
+  font-size: 2.6em;
+  font-family: "UD Shin Go Bold";
+  margin: 120px auto 30px; }
+
+.itemW {
+  font-size: 2.6em;
+  font-family: "UD Shin Go Bold";
+  margin: 80px auto 50px; }
+
+h2.title {
+  font-size: 2.0em;
+  font-family: "UD Shin Go DemiBold";
+  margin-bottom: 40px;
+  line-height: 1.5em;
+  font-feature-settings: "palt"; }
+
+/*サービス*/
+.Service {
+  text-align: center; }
+  .Service img {
+    width: auto;
+    height: 75px;
+    margin-bottom: 20px; }
+  .Service h3 {
+    font-size: 1.2em;
+    line-height: 1.4em; }
+
+.ServiceMenu {
+  background-color: white;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  margin-bottom: 40px;
+  border-radius: 3px;
+  border: 1px solid #DEDEDE; }
+
+/*プロダクション*/
+h3.ProductionText {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  font-feature-settings: "palt"; }
+
+.flow img {
+  max-width: 500px;
+  height: auto;
+  width: 75%;
+  margin-top: 50px; }
+
+/*製作実績*/
+.works {
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 20px 0px 50px;
+  margin-top: 150px; }
+
+.work h4 {
+  font-size: 1.0em;
+  margin-bottom: 50px; }
+  .work h4 a {
+    color: #333; }
+.work a img:hover {
+  opacity: 0.7; }
+.work h4 a:hover {
+  color: #3551a2; }
+
+/*プライス*/
+.PriceNet {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 90%;
+  text-align: center; }
+
+.Price {
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  padding: 20px 15px 50px; }
+  .Price img {
+    width: 80px;
+    height: auto;
+    margin: 30px; }
+  .Price h3 {
+    font-family: "UD Shin Go DemiBold";
+    margin-bottom: 20px; }
+
+/*コンタクト*/
+@media only screen and (max-width: 440px) {
+  .ContactPH {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAF0lEQVQYV2NkYGD4z8DAwMgAI0AMDA4AI3EBBMY7CTgAAAAASUVORK5CYII=), url(../img/Home-CONTACT-Sp.jpg);
+    height: 100vh; } }
+@media only screen and (min-width: 441px) {
+  .ContactPH {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAF0lEQVQYV2NkYGD4z8DAwMgAI0AMDA4AI3EBBMY7CTgAAAAASUVORK5CYII=), url(../img/Home-CONTACT-Pc.jpg);
+    /*	background-image: url(../img/Home-CONTACT-Pc.jpg);*/
+    height: 600px; } }
+.ContactPH {
+  position: relative;
+  background-repeat: repeat;
+  background-blend-mode: overlay;
+  background-size: auto, cover;
+  overflow: hidden; }
+
+.contentC {
+  max-width: 1200px;
+  width: 90%;
+  text-align: left;
+  margin: 0px auto;
+  padding-top: 150px; }
+
+h2.ContentCopy {
+  font-family: "UD Shin Go DemiBold";
+  line-height: 1.5em;
+  font-size: 2.3em; }
+
+.scroll {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-decoration: none;
+  margin-left: -20px;
+  color: #fff;
+  font-family: "UD Shin Go Regular";
+  padding-top: 60px; }
+  .scroll span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 30px;
+    height: 50px;
+    margin-left: -15px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-sizing: border-box; }
+    .scroll span::before {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      content: '';
+      width: 6px;
+      height: 6px;
+      margin-left: -3px;
+      background-color: #fff;
+      border-radius: 100%;
+      -webkit-animation: sdb 2s infinite;
+      animation: sdb 2s infinite;
+      box-sizing: border-box; }
+
+/*
+.scroll span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb 1.5s infinite;
+  animation: sdb 1.5s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}*/
+@-webkit-keyframes sdb {
+  0% {
+    -webkit-transform: translate(0, 0);
+    opacity: 0; }
+  40% {
+    opacity: 1; }
+  80% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+@keyframes sdb {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0; }
+  40% {
+    opacity: 1; }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+.ml10 {
+  position: relative;
+  font-weight: 900;
+  font-size: 4em; }
+  .ml10 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden; }
+  .ml10 .letter {
+    display: inline-block;
+    line-height: 1em;
+    transform-origin: 0 0; }
